@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\My_Work\\ReactNative\\GraphQlTestProject\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Superman\\.gradle\\caches\\transforms-1\\files-1.1\\material-1.1.0-alpha08.aar\\a698bf9d80142ea9ca5e4480705dd7dc\\res\\values-small-v4\\values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}
