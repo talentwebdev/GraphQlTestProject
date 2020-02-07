@@ -1,14 +1,13 @@
-const {Navigation} = require('react-native-navigation');
-//const {registerScreens} = require('./screens');
-const {setDefaultOptions} = require('./commons/Options');
-const Layouts = require('./screens/Layouts');
+import {Navigation} from 'react-native-navigation';
+import {setDefaultOptions} from './commons/Options';
+
+import Layouts from './screens/Layouts';
 
 function registerScreens() {
   Navigation.registerComponent('Layouts', () => Layouts);
 }
 
 function start() {
-  console.log('started');
   registerScreens();
   Navigation.events().registerAppLaunchedListener(async () => {
     setDefaultOptions();
